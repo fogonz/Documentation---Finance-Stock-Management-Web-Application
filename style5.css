@@ -113,7 +113,7 @@
         }
         
         .team-section {
-            background: linear-gradient(rgb(9, 11, 37), rgb(26, 60, 87));
+            background: linear-gradient(rgb(23, 25, 65), rgb(26, 60, 87));
             padding: 2rem;
             border-radius: var(--border-radius);
             margin-bottom: 2rem;
@@ -143,7 +143,7 @@
         
         .team-member {
             flex: 1;
-            background-color: rgba(15, 23, 42, 0.8);
+            background-color: var(--dark-bg);
             border-radius: var(--border-radius);
             padding: 1.5rem;
             text-align: center;
@@ -282,6 +282,7 @@
             display: none;
             padding: 1rem 0;
             animation: fadeIn 0.5s ease-in-out;
+            font-size: 1rem;
         }
         
         .tab-content.active {
